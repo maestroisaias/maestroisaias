@@ -27,3 +27,17 @@ body {
   height: auto; */
   margin-top:10px;
 }
+
+.mobile {
+  position:fixed;
+  width:80px;
+  height:80px;
+  bottom:180px;
+  right:30px;
+  background-color:#3f25d3;
+  color:#FFF;
+  border-radius:80px;
+  text-align:center;
+  font-size:70px;
+  z-index:100;
+}
