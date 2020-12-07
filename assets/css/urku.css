@@ -2051,7 +2051,8 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
             justify-content: center;
-    background-color: rgba(255, 255, 255, .95);
+    /* background-color: rgba(255, 255, 255, .95); */
+    background-color: black;
     overflow: auto;
   }
   #mobile-menu:checked ~ .rk-topbar .rk-menu {
@@ -2069,6 +2070,7 @@ body {
     -ms-flex-align: center;
             align-items: center;
     width: 85%;
+    background-color: black;
   }
   #mobile-menu:checked ~ .rk-topbar .rk-menu__item {
     padding-left: 0;
