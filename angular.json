@@ -117,8 +117,13 @@
               "devServerTarget": "Proyecto-Angular-Basico:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Proyecto-Angular-Basico"
 }
