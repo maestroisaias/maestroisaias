@@ -7,6 +7,7 @@ import { TestimonialsComponent } from './pages/testimonials/testimonials.compone
 
 
 const routes: Routes = [
+  { path: '', component: PortafolioComponent },
   { path: 'home', component: PortafolioComponent },
   { path: 'about', component: AboutComponent },
   { path: 'portafolio', component: PortafolioComponent },
